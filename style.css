@@ -1,0 +1,43 @@
+.box{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+.space{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: none;
+}
+.screen{
+    position: absolute;
+}
+.buttonTable{
+    background-color: rgb(151, 151, 151);
+    width: 40vw;
+    height: 40vw;
+    margin-left: 50vw;
+}
+.mapButton{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.mapButton[value="1"]{
+    background-color: blue;
+}
+.drawButton{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 80%
+}
+.clearButton{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 70%
+}

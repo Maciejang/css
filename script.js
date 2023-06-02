@@ -26,7 +26,7 @@ function renderMap(){
             topMargin += 50;
         }
         if(e == 1){
-            screen.innerHTML += `<div class="box" style="margin-left: ${margin}px; margin-top: ${topMargin}px;"></div>`
+            screen.innerHTML += `<div class="box" style="margin-left: ${margin}px; margin-top: ${topMargin}px;"><div class="side left"></div><div class="side right"></div><div class="side top"></div><div class="side back"></div><div class="side bottom"></div><div class="side left"></div><div class="side front"></div></div>`
             margin += 50;
         }
         else if(e == 0){
